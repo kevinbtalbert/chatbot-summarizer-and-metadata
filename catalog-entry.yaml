@@ -1,0 +1,19 @@
+name: Semantic Search with Summarization in CML
+
+entries:
+  - title: Semantic Search with Summarization in CML
+    label: semantic-search
+    short_description: |
+        Leverage chroma vector db for semantic search and summarization in CML
+    long_description: |
+        IMPORTANT: Please read the following before proceeding.  This AMP includes or otherwise depends on certain third party software packages.  Information about such third party software packages are made available in the notice file associated with this AMP.  By configuring and launching this AMP, you will cause such third party software packages to be downloaded and installed into your environment, in some instances, from third parties' websites.  For each third party software package, please see the notice file and the applicable websites for more information, including the applicable license terms.
+        If you do not wish to download and install the third party software packages, do not configure, launch or otherwise use this AMP.  By configuring, launching or otherwise using the AMP, you acknowledge the foregoing statement and agree that Cloudera is not responsible or liable in any way for the third party software packages.
+    image_path: >-
+      https://raw.githubusercontent.com/kevinbtalbert/CML_AMP_Document-Semantic-Search/main/assets/catalog-entry.png
+    tags:
+      - Semantic Search
+      - Chroma
+      - RAG
+      - NLP
+    git_url: 'https://github.com/kevinbtalbert/CML_AMP_Document-Semantic-Search'
+    is_prototype: true
