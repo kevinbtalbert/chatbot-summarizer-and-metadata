@@ -111,7 +111,7 @@ def main():
     DESC = "This app leverages Chroma's vector database for semantic search and integrates Generative AI for summarization."
     demo = gradio.Interface(
         fn=get_responses,
-        title="Air Force Seek Eagle Office AI-Powered Search",
+        title="AI-Powered Search",
         description=DESC,
         inputs=[
             gradio.Slider(minimum=1, maximum=10, step=1, value=3, label="Select number of similar documents to return"),
